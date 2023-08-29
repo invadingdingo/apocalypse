@@ -12,15 +12,14 @@ public class Node : MonoBehaviour {
     void CreateConnections() {
         foreach (Node node in nodes)
         {
-            Vector3 direction = node.transform.position - transform.position;
+            Vector2 direction = (Vector2)(node.transform.position - transform.position);
             float distance = direction.magnitude;
 
             GameObject colliderObject = new GameObject("ConnectionCollider");
-            colliderObject.transform.position = transform.position + direction * 0.5f;
-            colliderObject.transform.LookAt(node.transform);
+            colliderObject.transform.position = (Vector2)transform.position + direction * 0.5f;
 
-            BoxCollider collider = colliderObject.AddComponent<BoxCollider>();
-            collider.size = new Vector3(0.1f, 0f, distance);
+            EdgeCollider2D collider = colliderObject.AddComponent<EdgeCollider2D>();
+            collider.points = new Vector2[] { transform.position, node.transform.position };
         }
     }
 
@@ -34,7 +33,7 @@ public class Node : MonoBehaviour {
         Debug.Log(other.name);
 
         if (other.tag == "Player") {
-            other.GetComponent<Rotator>().canRotate = true;
+            //other.GetComponent<Rotator>().canRotate = true;
         }
     }
 
@@ -42,7 +41,7 @@ public class Node : MonoBehaviour {
         Debug.Log(other.name);
 
         if (other.tag == "Player") {
-            other.GetComponent<Rotator>().canRotate = false;
+            //other.GetComponent<Rotator>().canRotate = false;
         }
     }
     
