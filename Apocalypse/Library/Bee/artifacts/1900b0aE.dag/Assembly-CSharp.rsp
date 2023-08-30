@@ -357,7 +357,11 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Node.cs"
+"Assets/Movement.cs"
+"Assets/Path System/Edge.cs"
+"Assets/Path System/Node.cs"
+"Assets/Path System/PathAgent.cs"
+"Assets/Path System/PathSystem.cs"
 "Assets/Rotator.cs"
 -langversion:9.0
 

@@ -15,9 +15,6 @@ public class Rotator : MonoBehaviour {
     }
 
     private void Rotate() {
-        //float rotationAmount = verticalInput * rotationSpeed * Time.deltaTime;
-        //transform.Rotate(Vector3.up, verticalInput * 90);
-
         StartCoroutine(RotateRoutine(1, verticalInput));
     }
 
