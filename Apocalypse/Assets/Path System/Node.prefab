@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7119549468798018812}
   - component: {fileID: -4624577975139627534}
   - component: {fileID: 5045855400076606943}
+  - component: {fileID: -8167571590175723021}
   m_Layer: 0
   m_Name: Node
   m_TagString: Untagged
@@ -46,9 +47,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb62c9661cae0f4eba9ead84df456b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nodes:
-  - {fileID: 0}
-  edgePrefab: {fileID: 4974755925130757040, guid: 3518f0980bd626249962378e053094f5, type: 3}
 --- !u!23 &-4624577975139627534
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -99,3 +97,16 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7119549468798018813}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!135 &-8167571590175723021
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7119549468798018813}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}

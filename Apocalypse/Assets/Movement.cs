@@ -48,7 +48,6 @@ public class Movement : MonoBehaviour
         Debug.DrawRay(rayOrigin - transform.right * 0.2f, Vector3.down * rayLength, groundedLeft ? Color.green : Color.red);
         Debug.DrawRay(rayOrigin + transform.right * 0.2f, Vector3.down * rayLength, groundedRight ? Color.green : Color.red);
         
-        Debug.Log(groundedLeft + " " + groundedRight);
         return groundedLeft || groundedRight;
     }
 }

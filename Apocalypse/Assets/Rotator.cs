@@ -3,26 +3,16 @@ using System.Collections;
 public class Rotator : MonoBehaviour {
     float verticalInput;
     public bool rotating = false;
-
-    private void Update() {
-        GetInput();
-        if (!rotating) {
-            // Handle rotation based on vertical input
-            if (verticalInput != 0f) {
-                Rotate();
-            }
-        }
+    public void Rotate(float direction) {
+        if (!rotating)
+            StartCoroutine(RotateRoutine(1, direction));
     }
 
-    private void Rotate() {
-        StartCoroutine(RotateRoutine(1, verticalInput));
-    }
-
-    IEnumerator RotateRoutine(float duration, float modifier) {
-        Debug.Log("Here");
+    IEnumerator RotateRoutine(float duration, float direction) {
         rotating = true;
         Quaternion startRotation = transform.rotation;
-        Quaternion endRotation = startRotation * Quaternion.Euler(0f, modifier * -90f, 0f);
+        Debug.Log(startRotation);
+        Quaternion endRotation = startRotation * Quaternion.Euler(0f, direction * -90f, 0f);
 
         float startTime = Time.time;
         float endTime = startTime + duration;
@@ -36,9 +26,5 @@ public class Rotator : MonoBehaviour {
         rotating = false;
         transform.rotation = endRotation;
 
-    }
-
-    private void GetInput() {
-        verticalInput = Input.GetAxisRaw("Vertical");
     }
 }
