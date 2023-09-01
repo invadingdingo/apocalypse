@@ -9,7 +9,7 @@ public class PathAgent : MonoBehaviour {
 
     private void Update() {
         CheckBounds();
-        if (Input.GetAxisRaw("Vertical") != 0f && inRange) {
+        if (Input.GetAxisRaw("Vertical") != 0f && inRange && !GetComponent<Rotator>().rotating) {
             ChangeAxis();
         }
     }
@@ -21,10 +21,10 @@ public class PathAgent : MonoBehaviour {
     private void ChangeAxis() {
         if (axis == "x-axis") {
             axis = "z-axis";
-            GetComponent<Rotator>().Rotate(currentNode.verticalCameraDirection);
+            GetComponent<Rotator>().Rotate((int)currentNode.directionWhileVertical);
         } else {
             axis = "x-axis";
-            GetComponent<Rotator>().Rotate(currentNode.horizontalCameraDirection);
+            GetComponent<Rotator>().Rotate((int)currentNode.directionWhileHorizontal);
         }
 
         transform.position = new Vector3(currentNode.transform.position.x, transform.position.y, currentNode.transform.position.z);

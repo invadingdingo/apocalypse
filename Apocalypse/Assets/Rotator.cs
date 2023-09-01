@@ -2,17 +2,18 @@ using UnityEngine;
 using System.Collections;
 public class Rotator : MonoBehaviour {
     float verticalInput;
+    public float rotateTime = 0.5f;
     public bool rotating = false;
     public void Rotate(float direction) {
         if (!rotating)
-            StartCoroutine(RotateRoutine(1, direction));
+            StartCoroutine(RotateRoutine(rotateTime, direction));
     }
 
-    IEnumerator RotateRoutine(float duration, float direction) {
+    IEnumerator RotateRoutine(float duration, float newRotation) {
         rotating = true;
         Quaternion startRotation = transform.rotation;
         Debug.Log(startRotation);
-        Quaternion endRotation = startRotation * Quaternion.Euler(0f, direction * -90f, 0f);
+        Quaternion endRotation = startRotation * Quaternion.Euler(0f, (newRotation * 90), 0f);
 
         float startTime = Time.time;
         float endTime = startTime + duration;

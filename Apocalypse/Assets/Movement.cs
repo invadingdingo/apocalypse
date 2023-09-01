@@ -26,7 +26,9 @@ public class Movement : MonoBehaviour
 
         // Calculate movement vector
         Vector3 movement = new Vector3(horizontalInput, 0.0f, 0.0f) * moveSpeed * Time.deltaTime;
-        transform.Translate(movement);
+
+        if (!GetComponent<Rotator>().rotating)
+            transform.Translate(movement);
 
         // Jumping
         if (isGrounded && Input.GetButton("Jump"))

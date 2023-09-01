@@ -1,0 +1,559 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1693589244331614, "dur": 1084084, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1693589244331792, "dur": 9533, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1693589244341327, "dur": 31997, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1693589244373326, "dur": 432428, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1693589244805756, "dur": 595313, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1693589245401087, "dur": 14611, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1693589245416240, "dur": 8, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1693589244683700, "dur": 111255, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1693589244684389, "dur": 28249, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1693589244782605, "dur": 3474, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1693589244786082, "dur": 8863, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1693589244786649, "dur": 7325, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1693589244798645, "dur": 922, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1693589244798025, "dur": 1562, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1693589245416320, "dur": 182, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1693589244840737, "dur":1228, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589244841972, "dur":28, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1693589244842009, "dur":9, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1693589244842019, "dur":386, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1693589244842435, "dur":411, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589244842846, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245388495, "dur":575, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245389070, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245389080, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245389082, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245389099, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245389100, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245389103, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245389104, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245389108, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245389109, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245389112, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245389113, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245389116, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245389117, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245389121, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245389122, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245389126, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245389127, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245389131, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245389131, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245389135, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245389136, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245389139, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245389141, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245389144, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245389145, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245389148, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245389149, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245389153, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245389153, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245389157, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245389158, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245389163, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245389184, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245389195, "dur":1464, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1693589244842681, "dur":202, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693589244842885, "dur":3058, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693589244845968, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1693589244845971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693589244847071, "dur":441, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1693589244847514, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1693589244847575, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693589244847752, "dur":1854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1693589244849609, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1693589244849756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693589244849920, "dur":1128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1693589244851115, "dur":14902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693589244866023, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693589244866147, "dur":3425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693589244869620, "dur":22524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693589244892148, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693589244892156, "dur":1805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693589244893992, "dur":127210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693589245021204, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693589245021209, "dur":1098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693589245022338, "dur":44551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693589245066896, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693589245066905, "dur":1584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693589245068524, "dur":139720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693589245208250, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693589245208257, "dur":1163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693589245209455, "dur":179059, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693589244843981, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693589244843981, "dur":1995, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693589244845976, "dur":402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1693589244846381, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693589244847827, "dur":2098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1693589244849967, "dur":1762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693589244851733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693589244851971, "dur":1002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693589244853001, "dur":50043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse.exe" }}
+,{ "pid":12345, "tid":2, "ts":1693589244903050, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693589244903057, "dur":1088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse.exe" }}
+,{ "pid":12345, "tid":2, "ts":1693589244904177, "dur":39483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693589244943664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693589244943672, "dur":2409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693589244946137, "dur":24210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693589244970352, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693589244970362, "dur":1201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693589244971610, "dur":22998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693589244994612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693589244994619, "dur":6749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693589245001408, "dur":52893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693589245054306, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693589245054315, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693589245055342, "dur":225196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693589245280543, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693589245280550, "dur":1646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693589245282221, "dur":106280, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693589244842996, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693589244842997, "dur":2952, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693589244845968, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1693589244846104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693589244847993, "dur":1901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1693589244849935, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1693589244850038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693589244850044, "dur":1103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1693589244851193, "dur":16012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693589244867213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693589244867220, "dur":11994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693589244879255, "dur":16054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693589244895312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693589244895341, "dur":1705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693589244897083, "dur":75082, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693589244972169, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693589244972178, "dur":1123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693589244973339, "dur":15816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693589244989159, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693589244989168, "dur":931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693589244990133, "dur":113032, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693589245103171, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693589245103180, "dur":2136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693589245105356, "dur":45064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693589245150424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693589245150469, "dur":1414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693589245151918, "dur":234152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693589245386075, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693589245386082, "dur":2323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693589245388440, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1693589245388442, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693589244842835, "dur":96, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693589244842931, "dur":3087, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693589244846019, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1693589244846373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693589244847780, "dur":2131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1693589244849954, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1693589244850042, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693589244850047, "dur":1306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1693589244851397, "dur":2926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1693589244854326, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693589244854332, "dur":1326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1693589244855701, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1693589244855831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693589244856100, "dur":5507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1693589244861650, "dur":31893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693589244893547, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693589244893553, "dur":2438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693589244896061, "dur":19644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693589244915708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693589244915713, "dur":2363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693589244918111, "dur":15307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693589244933423, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693589244933433, "dur":917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693589244934389, "dur":31360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693589244965752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693589244965759, "dur":2603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693589244968401, "dur":21164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693589244989568, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693589244989578, "dur":1391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693589244991004, "dur":29658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693589245020666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693589245020673, "dur":964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693589245021670, "dur":33466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693589245055145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693589245055156, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693589245056171, "dur":54265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693589245110442, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693589245110451, "dur":940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693589245111425, "dur":122991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693589245234420, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693589245234444, "dur":1110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693589245235593, "dur":152922, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693589244843358, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693589244843359, "dur":2620, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693589244845990, "dur":10852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1693589244856845, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693589244856857, "dur":1210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1693589244858101, "dur":32350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693589244890455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693589244890461, "dur":851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693589244891346, "dur":36783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693589244928132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693589244928138, "dur":1894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693589244930078, "dur":16037, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693589244946118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693589244946123, "dur":1567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693589244947723, "dur":16789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693589244964518, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693589244964528, "dur":972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693589244965532, "dur":17967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693589244983504, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693589244983513, "dur":5286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693589244988831, "dur":35995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693589245024830, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693589245024837, "dur":2183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693589245027057, "dur":29174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693589245056234, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693589245056253, "dur":974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693589245057261, "dur":93214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693589245150479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693589245150484, "dur":5460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693589245155986, "dur":37472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693589245193463, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693589245193472, "dur":1247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693589245194759, "dur":7408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1693589245202170, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693589245202179, "dur":726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1693589245202941, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1693589245202977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693589245202982, "dur":2373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1693589245205391, "dur":183101, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693589244843501, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693589244843502, "dur":2470, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693589244845974, "dur":9376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1693589244855355, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693589244855447, "dur":902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1693589244856390, "dur":58566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693589244914963, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693589244914972, "dur":984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693589244915987, "dur":36507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693589244952526, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693589244952535, "dur":4947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693589244957519, "dur":15803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693589244973326, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693589244973334, "dur":873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693589244974272, "dur":106931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693589245081209, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693589245081219, "dur":9035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693589245090297, "dur":37869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693589245128171, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693589245128180, "dur":2967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693589245131189, "dur":133180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693589245264373, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693589245264381, "dur":790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693589245265198, "dur":123307, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693589244843188, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693589244843188, "dur":2760, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693589244845968, "dur":36130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1693589244882103, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693589244886851, "dur":1182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1693589244888072, "dur":27220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693589244915295, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693589244915302, "dur":1394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693589244916728, "dur":25242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693589244942003, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693589244942013, "dur":1320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693589244943370, "dur":30411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693589244973784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693589244973791, "dur":1071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693589244974895, "dur":16427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693589244991325, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693589244991332, "dur":5744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693589244997117, "dur":96002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693589245093124, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693589245093134, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693589245094157, "dur":148930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693589245243091, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693589245243098, "dur":924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693589245244062, "dur":144456, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693589244843823, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693589244843824, "dur":2158, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693589244845984, "dur":10578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1693589244856565, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693589244856670, "dur":963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1693589244857670, "dur":32189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693589244889865, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693589244889879, "dur":1273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693589244891192, "dur":25836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693589244917031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693589244917037, "dur":1383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693589244918448, "dur":16337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693589244934789, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693589244934797, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693589244935816, "dur":38419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693589244974238, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693589244974244, "dur":4856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693589244979137, "dur":41849, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693589245020989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693589245020994, "dur":1761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693589245022789, "dur":765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693589245023557, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693589245023564, "dur":1553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693589245025152, "dur":56384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693589245081540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693589245081546, "dur":1464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693589245083048, "dur":97008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693589245180062, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693589245180091, "dur":5176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693589245185303, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1693589245185418, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693589245187674, "dur":1680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1693589245189391, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1693589245189429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693589245189469, "dur":1397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1693589245190900, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1693589245190935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693589245190942, "dur":1101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1693589245192078, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1693589245192111, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693589245192117, "dur":1789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1693589245193944, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1693589245194045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693589245194050, "dur":8128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1693589245202214, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1693589245202252, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693589245202261, "dur":1299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1693589245203591, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1693589245203626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693589245203630, "dur":755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1693589245204419, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1693589245204451, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693589245204455, "dur":1081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1693589245205566, "dur":182927, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693589244843692, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693589244843692, "dur":2289, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693589244845981, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1693589244846161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693589244870636, "dur":3868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1693589244874559, "dur":86649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693589244961255, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693589244961265, "dur":6916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693589244968213, "dur":51579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693589245019796, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693589245019804, "dur":980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693589245020820, "dur":53922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693589245074747, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693589245074757, "dur":962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693589245075754, "dur":74164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693589245149922, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693589245149931, "dur":907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693589245150871, "dur":50015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693589245200892, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693589245200933, "dur":1738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693589245202702, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1693589245202735, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693589245202738, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1693589245203729, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1693589245203763, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693589245203767, "dur":1054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1693589245204856, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1693589245204959, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693589245204963, "dur":978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1693589245205971, "dur":182550, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693589244844281, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693589244844282, "dur":1692, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693589244845975, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1693589244846128, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693589244870153, "dur":6142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1693589244876339, "dur":21974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693589244898316, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693589244898325, "dur":1130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693589244899488, "dur":16070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693589244915582, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693589244915589, "dur":2689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693589244918310, "dur":19696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693589244938009, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693589244938017, "dur":984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693589244939035, "dur":41579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693589244980619, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693589244980628, "dur":3693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693589244984360, "dur":28978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693589245013343, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693589245013351, "dur":864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693589245014248, "dur":190737, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693589245204988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693589245204993, "dur":1407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693589245206430, "dur":182061, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693589244844128, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693589244844128, "dur":1891, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693589244846019, "dur":9672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1693589244855694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693589244855706, "dur":930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1693589244856676, "dur":24218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693589244880900, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693589244880908, "dur":6253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693589244887206, "dur":48922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693589244936131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693589244936137, "dur":1569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693589244937742, "dur":17739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693589244955487, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693589244955495, "dur":2038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693589244957568, "dur":17197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693589244974769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693589244974775, "dur":988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693589244975793, "dur":15522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693589244991318, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693589244991327, "dur":4767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693589244996134, "dur":22780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693589245018920, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693589245018930, "dur":1104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693589245020071, "dur":29373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693589245049451, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693589245049460, "dur":4213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693589245053714, "dur":96369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693589245150086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693589245150092, "dur":1871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693589245151997, "dur":168556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693589245320557, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693589245320564, "dur":959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693589245321553, "dur":66942, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693589244844525, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693589244844525, "dur":1460, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693589244845986, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1693589244846308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693589244872390, "dur":6053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1693589244878480, "dur":16384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693589244894869, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693589244894878, "dur":1836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693589244896750, "dur":30638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693589244927394, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693589244927403, "dur":874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693589244928314, "dur":28007, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693589244956325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693589244956331, "dur":834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693589244957201, "dur":17808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693589244975030, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693589244975037, "dur":959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693589244976029, "dur":15517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693589244991548, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693589244991553, "dur":4720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693589244996309, "dur":49416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693589245045730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693589245045738, "dur":1098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693589245046869, "dur":29624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693589245076497, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693589245076504, "dur":762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693589245077309, "dur":37944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693589245115259, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693589245115268, "dur":892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693589245116196, "dur":101711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693589245217912, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693589245217921, "dur":934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693589245218901, "dur":169624, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1693589244844423, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1693589244844423, "dur":1544, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1693589244845970, "dur":10833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1693589244856806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1693589244856837, "dur":1009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1693589244857888, "dur":33566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693589244891458, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1693589244891467, "dur":1264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693589244892771, "dur":130213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693589245022988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1693589245022995, "dur":2640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693589245025687, "dur":617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693589245026308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1693589245026316, "dur":810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693589245027158, "dur":36850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693589245064014, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1693589245064023, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693589245065426, "dur":151351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693589245216784, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1693589245216795, "dur":1235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693589245218064, "dur":170426, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1693589244844679, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1693589244844680, "dur":1312, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1693589244845992, "dur":10200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1693589244856195, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1693589244856208, "dur":982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1693589244857223, "dur":22522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1693589244879749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1693589244879811, "dur":7591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1693589244887442, "dur":58943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1693589244946388, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1693589244946393, "dur":2145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1693589244948572, "dur":81284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1693589245029861, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1693589245029870, "dur":955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1693589245030857, "dur":12328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":14, "ts":1693589245043191, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1693589245043201, "dur":1740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":14, "ts":1693589245044983, "dur":30428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":14, "ts":1693589245075414, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1693589245075422, "dur":690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":14, "ts":1693589245076144, "dur":71778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":14, "ts":1693589245147928, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1693589245147938, "dur":987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":14, "ts":1693589245148966, "dur":101738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":14, "ts":1693589245250708, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1693589245250716, "dur":965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":14, "ts":1693589245251706, "dur":136805, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1693589244844814, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1693589244844815, "dur":1155, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1693589244845973, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1693589244846119, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1693589244857503, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1693589244858517, "dur":18822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693589244877348, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1693589244878163, "dur":780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693589244878979, "dur":15953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693589244894935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1693589244894940, "dur":1425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693589244896430, "dur":31855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693589244928305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1693589244928310, "dur":1755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693589244930101, "dur":15927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693589244946032, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1693589244946049, "dur":1581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693589244947672, "dur":19316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693589244966993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1693589244967000, "dur":2050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693589244969084, "dur":25261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693589244994352, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1693589244994360, "dur":3838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693589244998232, "dur":96555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693589245094790, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1693589245094799, "dur":1491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693589245096323, "dur":187344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693589245283671, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1693589245283678, "dur":1377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693589245285087, "dur":103411, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1693589244844945, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1693589244844945, "dur":1046, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1693589244845991, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1693589244846284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1693589244871072, "dur":3719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1693589244874832, "dur":20545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693589244895380, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1693589244895385, "dur":2707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693589244898129, "dur":29842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693589244927974, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1693589244927980, "dur":2555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693589244930569, "dur":15549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693589244946121, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1693589244946127, "dur":1780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693589244947940, "dur":30850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693589244978797, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1693589244978808, "dur":9089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693589244987938, "dur":23456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693589245011400, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1693589245011432, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693589245012736, "dur":84147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693589245096886, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1693589245096894, "dur":816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693589245097743, "dur":159928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693589245257676, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1693589245257683, "dur":1348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sam.MGCCCVRIA/Desktop/Rotation Test/Apocalypse_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693589245259056, "dur":129450, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693589245391977, "dur":1335, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1693589245416550, "dur": 582, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1693589245416228, "dur": 919, "ph": "X", "name": "Write chrome-trace events", "args": {} },
